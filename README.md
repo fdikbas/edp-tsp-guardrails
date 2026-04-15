@@ -1,4 +1,4 @@
-# EDP TSP benchmark package (paper-final, minimal GitHub package)
+# EDP TSP benchmark package 
 
 This repository contains the minimal reproducibility package for the manuscript on the Equal Detour Point (EDP) heuristic for the symmetric Traveling Salesman Problem.
 
@@ -48,15 +48,3 @@ This script is the **paper-final** configuration:
 - BEST_POSTBOOST disabled
 - MF seed-stability disabled
 - route plotting disabled
-
-These settings were chosen so that the benchmark outputs remain aligned with the manuscript text and with the reported meaning of `BEST_ENVELOPE`.
-
-## Suggested GitHub upload contents
-
-Upload exactly these items:
-
-- main Python file
-- `results/` folder
-- `requirements.txt`
-- `README.md`
-- optional: `scripts/Figure3_variantwise_exact_gap_core_suite_standalone.py`
