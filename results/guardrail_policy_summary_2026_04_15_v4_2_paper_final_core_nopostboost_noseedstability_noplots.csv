@@ -1,0 +1,31 @@
+component,parameter,value
+accuracy_guardrail,enabled,True
+accuracy_guardrail,variants,EDP_3SECT|EDP_LOCAL_3SECT
+accuracy_guardrail,reference_csv_mode,auto
+accuracy_guardrail,gap_increase_thresh_pct,0.5
+accuracy_guardrail,abs_gap_thresh_pct,3.0
+accuracy_guardrail,require_geom_risk,True
+accuracy_guardrail,geom_risk_score_min,0.55
+accuracy_guardrail,risky_geom_classes_source,d:\pythoncodes\tsp edp\results\geom_drift_action_2026_04_05_v3_core_stress_bestpostboost_rngfix2_mpalitefix_guardfix_bestenvelope_extbase_seedstability.csv
+accuracy_guardrail,risky_geom_classes_used,dense|dense+clustered|dense+isotropic|dense+isotropic+clustered
+accuracy_guardrail,two_stage,True
+accuracy_guardrail,mini_accept_improve_min_delta,1
+accuracy_guardrail,stage3_enabled,True
+accuracy_guardrail,stage3_max_n,200
+accuracy_guardrail,stage3_accept_improve_min_delta,1
+accuracy_guardrail,stage3_seed_offset,777
+geom_risk,hull_frac_max,0.35
+geom_risk,pca_aspect_max,2.0
+geom_risk,nn_cv_min,0.55
+geom_risk,score_formula,0.35*hull_risk + 0.25*aspect_risk + 0.40*cv_risk
+geom_risk,hull_risk,"clip((0.35-hf)/0.35,0,1)"
+geom_risk,aspect_risk,"clip((2.0-asp)/2.0,0,1)"
+geom_risk,cv_risk,"clip((cv-0.55)/(1-0.55),0,1)"
+mf_guard,enabled,True
+mf_guard,worse_delta_pct,1.0
+mf_guard,abs_gap_min_pct,3.0
+mf_guard,strong_max_n,500
+mf_guard,strong_large_n_max_delta_pct,3.0
+mf_hard_fallback,enabled,True
+mf_hard_fallback,min_n,575
+mf_hard_fallback,delta_pct,1.0

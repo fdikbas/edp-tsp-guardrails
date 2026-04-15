@@ -1,0 +1,14 @@
+instance,n,edge_weight_type,geom_class,exact_gap_percent,recommended_action
+a280,280,EUC_2D,dense+isotropic,3.4509499806126405,Increase ILS intensity + enable extra reinsertion focus
+ch130,130,EUC_2D,dense+isotropic+clustered,1.702127659574468,Increase ILS intensity + enable extra reinsertion focus
+ch150,150,EUC_2D,dense+isotropic,3.4160539215686274,Increase ILS intensity + enable extra reinsertion focus
+d198,198,EUC_2D,dense+clustered,1.6603295310519646,Increase ILS intensity + enable extra reinsertion focus
+eil101,101,EUC_2D,dense+isotropic,1.9077901430842608,Increase ILS intensity + enable extra reinsertion focus
+gr202,202,GEO,dense+isotropic+clustered,3.568227091633466,Increase ILS intensity + enable extra reinsertion focus
+gr666,666,GEO,dense+clustered,7.679424374401239,Increase ILS intensity + enable extra reinsertion focus
+lin318,318,EUC_2D,dense+isotropic+clustered,4.016274477146732,Increase ILS intensity + enable extra reinsertion focus
+pcb442,442,EUC_2D,dense+isotropic,4.064752451849226,Increase ILS intensity + enable extra reinsertion focus
+pr1002,1002,EUC_2D,dense+isotropic,8.393136327665077,Increase ILS intensity + enable extra reinsertion focus
+rat575,575,EUC_2D,dense,4.813228997490034,Increase ILS intensity + enable extra reinsertion focus
+u724,724,EUC_2D,dense+isotropic,5.153901216893343,Increase ILS intensity + enable extra reinsertion focus
+ulysses22.tsp,22,GEO,dense+clustered,1.240553258234707,Increase ILS intensity + enable extra reinsertion focus

@@ -1,0 +1,7 @@
+numpy
+pandas
+tsplib95
+scipy
+tqdm
+mip
+matplotlib
