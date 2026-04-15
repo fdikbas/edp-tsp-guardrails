@@ -31,8 +31,6 @@ Therefore the minimal reliable public package is:
 3. a short README,
 4. a requirements file.
 
-This package keeps the repository small and GitHub-friendly.
-
 ## How to rerun the paper-final benchmark
 
 1. Create a folder named `tsplib_instances/` next to the main script.
@@ -62,9 +60,3 @@ Upload exactly these items:
 - `requirements.txt`
 - `README.md`
 - optional: `scripts/Figure3_variantwise_exact_gap_core_suite_standalone.py`
-
-That is sufficient and remains far below GitHub size limits.
-
-## Before making the repository public
-
-Add a license file if you want others to reuse the code legally.
